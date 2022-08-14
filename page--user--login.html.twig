@@ -1,0 +1,29 @@
+<div class="layout-container">
+
+  <header role="banner" id="header-page--user--login">
+      <div id="site-branding-page--user--login">
+        {{ page.header }}
+      </div>
+  </header>
+
+  <div id="login-container">
+      <div id="login">
+         {{ page.content }}
+      </div>
+  </div>
+
+
+  
+  <div id="footer_first-page--user--login">
+          {% if page.footer_first %}
+            <footer role="contentinfo">
+              {{ page.footer_first }}
+            </footer>
+          {% endif %}
+  </div>
+
+  
+
+  
+
+</div>{# /.layout-container #}
